@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Debates</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#">
+                <img src="../icons/El texto del párrafo.png" alt="">
+            </a>
+            <ul>
+                <li class="nav-li">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./lecturas.html">Lecturas</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./autores.html">Autores</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./debates.html">Debates</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <h1>Debates</h1>
+       
+       <!-- formulario inscripcion de debate -->
+       <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="genero">Género:</label>
+        <input type="radio" name="" id="">
+        <label for="">Mujer</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Hombre</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Prefireo no decirlo</label>
+
+        <label for="genero">Género de lecturas</label>
+        <select name="" id="">
+            <option value="">Romance</option>
+            <option value="">Terror</option>
+            <option value="">Ciencia Ficcion</option>
+            <option value="">Fantasía</option>
+            <option value="">Thriler</option>
+            <option value="">Poesía</option>
+        </select>
+
+        <label for="subscribe">Suscribirse:</label>
+        <input type="checkbox" name="subscribe" id="subscribe">
+
+        <input type="submit" value="Enviar">
+       </form>
+       <!-- area para el proximo debate -->
+       <section>
+        <p>Proximo Debate</p>
+        <img src="../img/ia mi nombre es emilia del v.jpeg" alt="">
+       </section>
+    </main>
+    <footer>
+        <p class="p-footer">Copyright © 2025. All rights reserved. Lonley Hearts Book Club.</p>
+        <img src="../icons/El texto del párrafo.png" alt="">
+    </footer>
+</body>
+</html>

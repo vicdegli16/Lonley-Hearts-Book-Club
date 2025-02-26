@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*google fonts - Playfair Display
+*/
+/* font-family: "Playfair Display", serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: rgba(255, 250, 220, 0.897);
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.nav-li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(119, 117, 11);
+
+    padding: 8px;
+    margin: 7px 5px;
+    border: 1px solid rgb(151, 224, 133);
+    border-radius: 4px;
+    display: inline-block;
+
+}
+h1{
+    font-size: 50px;
+    color: rgb(74, 179, 138);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: rgb(3, 53, 1);
+    margin: 30px;
+}
+h2{
+    color: black;
+}
+.p-footer {
+    color: rgb(54, 54, 51);
+    font-size: 15px;
+    text-align: start;
+}
+
+.recomendacion-1 {
+    width: 180px;
+    height: 230px;
+}
+.recomendacion-t1 {
+    font-size: 21px;
+    color: rgb(54, 54, 51);
+    text-align: center;
+}
+.recomendacion-2 {
+    width: 180px;
+    height: 230px
+}
+.subtitulo-oferta {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(71, 83, 47);
+}
+
+.autores-conteiner {
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.autores {
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+
+    padding: 8px;
+    margin: 7px 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.autores-card {
+    padding: 16px;
+    width: 300px;
+}
+
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

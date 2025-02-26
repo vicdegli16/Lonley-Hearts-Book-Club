@@ -38,41 +38,43 @@
        
        <!-- formulario inscripcion de debate -->
     <section>
-       <form action="/submit" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
+        <div>
+            <form action="/submit" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                
+                <label for="genero">Género:</label>
+                <input type="radio" name="" id="">
+                <label for="">Mujer</label>
         
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido">
+                <input type="radio" name="" id="">
+                <label for="">Hombre</label>
         
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
+                <input type="radio" name="" id="">
+                <label for="">Prefireo no decirlo</label>
         
-        <label for="genero">Género:</label>
-        <input type="radio" name="" id="">
-        <label for="">Mujer</label>
-
-        <input type="radio" name="" id="">
-        <label for="">Hombre</label>
-
-        <input type="radio" name="" id="">
-        <label for="">Prefireo no decirlo</label>
-
-        <label for="genero">Género de lecturas</label>
-        <select name="" id="">
-            <option value="">Romance</option>
-            <option value="">Terror</option>
-            <option value="">Ciencia Ficcion</option>
-            <option value="">Fantasía</option>
-            <option value="">Thriler</option>
-            <option value="">Poesía</option>
-        </select>
-
-        <label for="subscribe">Suscribirse:</label>
-        <input type="checkbox" name="subscribe" id="subscribe">
-
-        <input type="submit" value="Enviar">
-       </form>
+                <label for="genero">Género de lecturas</label>
+                <select name="" id="">
+                    <option value="">Romance</option>
+                    <option value="">Terror</option>
+                    <option value="">Ciencia Ficcion</option>
+                    <option value="">Fantasía</option>
+                    <option value="">Thriler</option>
+                    <option value="">Poesía</option>
+                </select>
+        
+                <label for="subscribe">Suscribirse:</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </section>
        <!-- area para el proximo debate -->
        <section>

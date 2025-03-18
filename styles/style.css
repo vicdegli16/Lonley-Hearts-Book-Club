@@ -14,11 +14,18 @@ body{
 
 }
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px;
     background-color: rgb(255, 240, 216);
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    grid-template-areas: 
+       "logo navbar ul navbar ul navbar ul navbar ul navbar ul";
+
+
+
+
+
 }
 .navbar ul {
     display: flex;
@@ -26,6 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    grid-area: navbar ul;
 }
 .nav-li{
     list-style: none;
@@ -40,6 +48,12 @@ body{
     border-radius: 4px;
     display: inline-block;
 
+}
+.logo{ 
+    grid-area: logo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
 }
 h1{
     font-size: 50px;
@@ -107,24 +121,30 @@ body {
     font-size: 16px;
     padding: 10px;
 }
-@media (min-width: 1024px) {
-    body {
-        font-size: 20px;
-        padding: 30px;
-    }
-}
-.navbar {
+
+.bienvenda{
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 80px;
     align-items: center;
 }
-@media (min-width: 768px) {
-    .navbar {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-.main-image {
+footer {
+    margin-top: 80px;
+    margin-bottom: 32px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+@media (max-width: 450px) {
+    body {
+        margin: 0 16px;
+    }
+    .navbar {
+        grid-template-rows: 50px 20px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+    }
 }

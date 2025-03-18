@@ -18,6 +18,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
+    background-color: rgb(255, 240, 216);
 }
 .navbar ul {
     display: flex;
@@ -122,4 +123,8 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+.main-image {
+    display: flex;
+    justify-content: flex-end;
 }

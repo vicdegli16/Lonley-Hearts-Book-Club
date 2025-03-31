@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="./styles/style.css">
     <title>Lonley Hearts Book Club</title>
 </head>
 <body> 
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./icons/El texto del párrafo.png" alt="Bootstrap" width="100" height="50">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/lecturas.html">Lecturas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/autores.html">Autores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/debates.html">Debates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-        <nav class="navbar">
+        <!-- <nav class="navbar">
             <a href="#">
                 <figure class="logo">
                     <img src="./icons/El texto del párrafo.png" alt="">
@@ -35,7 +66,7 @@
                     <a class="nav-link"href="./pages/ofertas.html">Ofertas</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
@@ -50,12 +81,12 @@
 
             <h2>Novedades y Lanzamietos</h2>
 
-            <div>
+            <div class="proximo-debate">
                 <p>¡Hola a todos!
                     Les informamos que el próximo debate de la lectura del mes se llevará a cabo por Google Meet. El enlace para unirse será enviado a sus correos electrónicos en los próximos días.
                     ¡Esperamos contar con su participación y que disfruten de la discusión!</p>
             </div>
-            <div>
+            <div class="maraton">
                 <p>¡Atención a todos los amantes de la lectura! 📚
 
                     ¡Se viene una Maratón de Lectura y está abierta a todos! 🎉
@@ -85,5 +116,8 @@
         <p class="p-footer">Copyright © 2025. All rights reserved. Lonley Hearts Book Club.</p>
         <img src="../icons/El texto del párrafo.png" alt="">
     </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

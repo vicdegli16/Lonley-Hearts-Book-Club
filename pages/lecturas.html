@@ -22,10 +22,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./lecturas.html">Lecturas</a>
+                    <a class="nav-link active" href="./lecturas.html">Lecturas</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./autores.html">Autores</a>
@@ -68,30 +68,53 @@
     <main>
         <h1>Lecturas Recomendadas</h1>
         <!-- recomendacioes de libros -->
-         <img class="recomendacion-1" src="../img/alas de onix.jpeg" alt="">
-         <p class="recomendacion-t1">Tras casi dieciocho meses en el Colegio de Guerra Basgiath, Violet Sorrengail tiene claro que no queda tiempo para entrenar. Hay que tomar decisiones. La batalla ha comenzado y, con enemigos acercándose a las murallas e infiltrados en sus propias filas, es imposible saber en quién confiar.
+        <h2>Alas de ónix - Rebecca Yarros</h2>
+         <section class="recomendacion-lecturas">
+            <p class="recomendacion-t1">Tras casi dieciocho meses en el Colegio de Guerra Basgiath, Violet Sorrengail tiene claro que no queda tiempo para entrenar. Hay que tomar decisiones. La batalla ha comenzado y, con enemigos acercándose a las murallas e infiltrados en sus propias filas, es imposible saber en quién confiar.
 
-            Ahora Violet deberá emprender un viaje fuera de los límites de Aretia, en busca de aliados de tierras desconocidas que acepten pelear por Navarre. La misión pondrá a prueba su suerte, y la obligará a usar todo su ingenio y fortaleza para salvar lo que más ama: sus dragones, su familia, su hogar y a él.
-            
-            Aunque eso signifique tener que guardar un secreto tan peligroso que podría destruirlo todo.
-            
-            Navarre necesita un ejército. Necesita poder. Necesita magia. Y necesitará algo que solo Violet puede encontrar: la verdad.
-            
-            Pero una tormenta se aproxima… y no todos sobrevivirán a su furia.</p>
+              Ahora Violet deberá emprender un viaje fuera de los límites de Aretia, en busca de aliados de tierras desconocidas que acepten pelear por Navarre. La misión pondrá a prueba su suerte, y la obligará a usar todo su ingenio y fortaleza para salvar lo que más ama: sus dragones, su familia, su hogar y a él.
+              
+              Aunque eso signifique tener que guardar un secreto tan peligroso que podría destruirlo todo.
+              
+              Navarre necesita un ejército. Necesita poder. Necesita magia. Y necesitará algo que solo Violet puede encontrar: la verdad.
+              
+              Pero una tormenta se aproxima… y no todos sobrevivirán a su furia.</p>
+              <figure>
+                <img class="recomendacion-img" src="../img/9788408297079-1.jpg" alt="">
+               </figure>
+          
+         </section> 
 
             <!-- recomendacion 2 -->
-
-            <img class="recomendacion-2" src="../img/9788466681032.jpg" alt="">
-            <p class="recomendacion-t1"> ME GUSTA MUCHO MATAR. Es casi lo que más me gusta, además de ser famoso. Pero no lo hago solo por placer: mis exclusivas sobre crímenes me han convertido en el colaborador estrella del programa más visto de la televisión. A la policía no le hace demasiada gracia que yo sepa más que ellos sobre los casos que no resuelven, pero así son las cosas. Toda España me conoce.
-                
+            <h2>Si te digo mi nombre tendré que matarte - Iñaki C. Martínez</h2>
+             <section class="recomendacion-lecturas">
+                <p class="recomendacion-t1"> ME GUSTA MUCHO MATAR. Es casi lo que más me gusta, además de ser famoso. Pero no lo hago solo por placer: mis exclusivas sobre crímenes me han convertido en el colaborador estrella del programa más visto de la televisión. A la policía no le hace demasiada gracia que yo sepa más que ellos sobre los casos que no resuelven, pero así son las cosas. Toda España me conoce.
+                  
                 Mi vida feliz cambió una noche de copas en el bar donde se cierran los negocios más turbios de Madrid. Sí, el bar es ese en el que estás pensando, el mismo. Fue allí donde mi mejor amigo (o único amigo, si te soy del todo sincero), un periodista deportivo que ha logrado relacionarse de maravilla con las altas esferas, me hizo un encargo que no pude rechazar…, al menos si quiero seguir con vida.
                 
                 La satisfacción cuando terminas una película de las buenas. El sabor de un vino que te sorprende. Tu primera raya. El placer de un orgasmo. O de un gol importante si eres más de fútbol que de follar. Mezclalo todo. </p>
+                <figure>
+                  <img class="recomendacion-img" src="../img/9788466681032.jpg" alt="">
+                </figure>
+              
+             </section>
 
+       
 
         <!-- formulario de recomendaciones -->
+        <h3>Recomendaciones para las proximas lecturas</h3>
+        
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Recomiendo Leer</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+        <button type="Enviar" class="btn btn-primary">Enviar</button>
 
-         <section>
+         <!-- <section>
             <div>
                 <form action="/submit" method="post">
            
@@ -103,7 +126,7 @@
                     <input type="submit" value="Enviar">
                  </form>
             </div>
-         </section>
+         </section> -->
     </main>
     <footer>
         <p class="p-footer">Copyright © 2025. All rights reserved. Lonley Hearts Book Club.</p>

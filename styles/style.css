@@ -13,7 +13,7 @@ body{
     background-color: rgba(255, 250, 220, 0.897);
 
 }
-.navbar {
+/* .navbar {
     background-color: rgb(255, 240, 216);
     display: grid;
     grid-template-rows: 50px;
@@ -21,9 +21,9 @@ body{
     gap: 16px;
     grid-template-areas: 
        "logo navbar-ul navbar-ul navbar-ul navbar-ul navbar-ul";
-}
+} */
 
-.navbar-ul {
+/* .navbar-ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,13 +44,13 @@ body{
     border-radius: 4px;
     display: inline-block;
 
-}
-.logo{ 
+} */
+/* .logo{ 
     grid-area: logo;
     display: flex;
     flex-direction: row;
     justify-content: center;  
-}
+} */
 h1{
     font-size: 50px;
     color: rgb(74, 179, 138);
@@ -62,27 +62,39 @@ p{
     color: rgb(3, 53, 1);
     margin: 30px;
 }
-h2{
-    color: black;
-}
+
 .p-footer {
     color: rgb(54, 54, 51);
     font-size: 15px;
     text-align: start;
 }
-
-.recomendacion-1 {
-    width: 180px;
-    height: 230px;
+.recomendacion-lecturas {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
 }
+
 .recomendacion-t1 {
     font-size: 21px;
     color: rgb(54, 54, 51);
     text-align: center;
 }
-.recomendacion-2 {
-    width: 180px;
-    height: 230px
+.recomendacion-img {
+    width: 300px;
+    height: 370px
+}
+h2 {
+    font-size: 36px;
+    color: #0d6137;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    font-size: 36px;
+    color: #149bbd;
+    text-align: center;
 }
 .subtitulo-oferta {
     text-align: center;
@@ -102,6 +114,8 @@ h2{
 
     text-decoration: none;
     color: black;
+    text-decoration:underline;
+    
 
     padding: 8px;
     margin: 7px 5px;
@@ -112,7 +126,32 @@ h2{
     padding: 16px;
     width: 300px;
 }
+.novedades {
+    font-size: 50px;
+    color: rgb(91, 146, 126);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    text-decoration: underline wavy;
+}
+.novedades-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-between;
 
+
+}
+.proximo-grid {
+     background-color:rgba(253, 214, 142, 0.452);
+     border: 1px solid rgba(218, 236, 150, 0.37);
+     padding: 10px;
+     text-align: justify;
+     border-radius: 32px;
+    
+
+      
+
+}
 body {
     font-size: 16px;
     padding: 10px;

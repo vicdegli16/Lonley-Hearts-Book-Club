@@ -22,7 +22,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./lecturas.html">Lecturas</a>
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="./autores.html">Autores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./debates.html">Debates</a>
+                    <a class="nav-link active" href="./debates.html">Debates</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./ofertas.html">Ofertas</a>
@@ -70,7 +70,56 @@
        <h1>Debates</h1>
        
        <!-- formulario inscripcion de debate -->
-    <section>
+       <form>
+        <fieldset>
+          <legend>Formulario para Unirse a los Proximos Debates</legend>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control" placeholder="Tu Nombre">
+            <label for="Apellido" class="form-label">Apellido</label>
+            <input type="text" id="Apellido" class="form-control" placeholder="Tu Apellido">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@gmail.com">
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Mujer</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Hombre</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Prefireo no decirlo</label>
+          </div>
+
+
+          <div class="mb-3">
+            <label for="Select" class="form-label">Género de lecturas</label>
+            <select id="Select" class="form-select">
+              <option>Romance</option>
+              <option>Terror</option>
+              <option>Ciencia Ficcion</option>
+              <option>Fantasía</option>
+              <option>Thriler</option>
+              <option>Poesía</option>
+            </select>
+          </div>
+
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Subscribirse</label>
+          </div>
+          
+          </div>
+          <button type="Enviar" class="btn btn-primary">Enviar</button>
+        </fieldset>
+      </form>
+    <!-- <section>
         <div>
             <form action="/submit" method="post">
                 <label for="nombre">Nombre:</label>
@@ -107,7 +156,7 @@
         
                 <input type="submit" value="Enviar">
             </form>
-        </div>
+        </div> -->
     </section>
        <!-- area para el proximo debate -->
        <section>
@@ -115,7 +164,7 @@
         <div>
             <img src="../img/ia mi nombre es emilia del v.jpeg" alt="">
             <h3>SINOPSIS</h3>
-            <p>MI NOMBRE ES EMILIA DEL VALLE - Isabel Allende</p>
+            <h4>MI NOMBRE ES EMILIA DEL VALLE - Isabel Allende</h4>
             <P>San Francisco, 1866: una monja irlandesa, embarazada y abandonada por un aristócrata chileno tras una apasionada relación, da a luz a una niña a la que llama Emilia del Valle. Criada por su cariñoso padrastro, Emilia se convertirá en una joven brillante de gran personalidad, autónoma e independiente, que desafiará las normas sociales de su tiempo para profesar su verdadera pasión y vocación: la escritura.
 
             Con tan solo diecisiete años, publicará novelas de aventuras bajo un pseudónimo masculino. Pero, enseguida, su mundo ficticio se le quedará pequeño y decidirá optar al puesto de periodista que se le ofrece en el periódico local para vivir de cerca la realidad.

@@ -13,6 +13,9 @@ body{
     background-color: rgba(255, 250, 220, 0.897);
 
 }
+.bg-nav-propio {
+    background-color: rgb(255, 240, 216);
+}
 /* .navbar {
     background-color: rgb(255, 240, 216);
     display: grid;
@@ -85,11 +88,18 @@ p{
     width: 300px;
     height: 370px
 }
+.btn-lecturas {
+    background-color: rgb(252, 197, 109);
+} 
+.btn-lecturas:hover {
+    background-color: #ec6314;
+}
 h2 {
     font-size: 36px;
     color: #0d6137;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
 }
 h3 {
     font-size: 38px;
@@ -141,16 +151,29 @@ h3 {
 
 
 }
-.proximo-grid {
-     background-color:rgba(253, 214, 142, 0.452);
-     border: 1px solid rgba(218, 236, 150, 0.37);
-     padding: 10px;
-     text-align: justify;
-     border-radius: 32px;
+.proximo-grid-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgba(253, 214, 142, 0.452);
+    border: 1px solid rgba(218, 236, 150, 0.37);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 32px;
     
 
       
 
+}
+.proximo-grid-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgba(253, 214, 142, 0.452);
+    border: 1px solid rgba(218, 236, 150, 0.37);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 32px;
 }
 body {
     font-size: 16px;
@@ -191,7 +214,12 @@ footer {
     margin: auto;
     width: 250px;
 }
-
+.btn-debates {
+    background-color: rgb(235, 152, 20);
+}
+.btn-debates:hover {
+    background-color: #9dee07;
+}
 
 @media (max-width: 450px) {
     body {
@@ -204,6 +232,19 @@ footer {
            "logo navbar ul navbar ul navbar ul navbar ul navbar ul"
     }
     .bienvenda {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .proximo-grid-1 {
+        flex-direction: column;
+        gap: 32px;
+        
+    }
+    .proximo-grid-2{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .recomendacion-lecturas {
         flex-direction: column;
         gap: 32px;
     }

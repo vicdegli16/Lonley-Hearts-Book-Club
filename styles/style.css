@@ -92,7 +92,7 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h3 {
-    font-size: 36px;
+    font-size: 38px;
     color: #149bbd;
     text-align: center;
 }
@@ -173,6 +173,26 @@ footer {
     align-items: center;
     gap: 24px;
 }
+.formulario-debate {
+    font-size: 25px;
+    color: #94700c;
+    text-align: center;
+}
+.lectura-debate{
+    font-size: 24px;
+    color: #023859;
+    text-align: center;
+}
+.img-debate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+}
+
+
 @media (max-width: 450px) {
     body {
         margin: 0 16px;

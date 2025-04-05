@@ -1,255 +1,218 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-
 /*google fonts - Playfair Display
 */
 /* font-family: "Playfair Display", serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-body{
-    background-color: rgba(255, 250, 220, 0.897);
-
-}
-.bg-nav-propio {
-    background-color: rgb(255, 240, 216);
-}
-/* .navbar {
-    background-color: rgb(255, 240, 216);
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 16px;
-    grid-template-areas: 
-       "logo navbar-ul navbar-ul navbar-ul navbar-ul navbar-ul";
-} */
-
-/* .navbar-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 16px;
-    grid-area: navbar ul;
-}
-.nav-li{
-    list-style: none;
-}
-.nav-link{
-    text-decoration: none;
-    color: rgb(119, 117, 11);
-
-    padding: 8px;
-    margin: 7px 5px;
-    border: 1px solid rgb(151, 224, 133);
-    border-radius: 4px;
-    display: inline-block;
-
-} */
-/* .logo{ 
-    grid-area: logo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;  
-} */
-h1{
-    font-size: 50px;
-    color: rgb(74, 179, 138);
-    font-family: "Playfair Display", serif;
-    text-align: center;
-}
-p{
-    font-size: 20px;
-    color: rgb(3, 53, 1);
-    margin: 30px;
-}
-
-.p-footer {
-    color: rgb(54, 54, 51);
-    font-size: 15px;
-    text-align: start;
-}
-.recomendacion-lecturas {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    align-items: center;
-}
-
-.recomendacion-t1 {
-    font-size: 21px;
-    color: rgb(54, 54, 51);
-    text-align: center;
-}
-.recomendacion-img {
-    width: 300px;
-    height: 370px
-}
-.btn-lecturas {
-    background-color: rgb(252, 197, 109);
-} 
-.btn-lecturas:hover {
-    background-color: #ec6314;
-}
-h2 {
-    font-size: 36px;
-    color: #0d6137;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 100px;
-}
-h3 {
-    font-size: 38px;
-    color: #149bbd;
-    text-align: center;
-}
-.subtitulo-oferta {
-    text-align: center;
-    text-decoration: underline;
-    color: rgb(71, 83, 47);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .autores-conteiner {
-    margin: 32px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  margin: 32px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .autores {
-    display: inline-block;
-
-    text-decoration: none;
-    color: black;
-    text-decoration:underline;
-    
-
-    padding: 8px;
-    margin: 7px 5px;
-    border: 1px solid gray;
-    border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  padding: 8px;
+  margin: 7px 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
+
 .autores-card {
-    padding: 16px;
-    width: 300px;
+  padding: 16px;
+  width: 300px;
 }
-.novedades {
-    font-size: 50px;
-    color: rgb(91, 146, 126);
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    text-decoration: underline wavy;
-}
-.novedades-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: space-between;
 
-
-}
-.proximo-grid-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color:rgba(253, 214, 142, 0.452);
-    border: 1px solid rgba(218, 236, 150, 0.37);
-    padding: 10px;
-    text-align: justify;
-    border-radius: 32px;
-    
-
-      
-
-}
-.proximo-grid-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color:rgba(253, 214, 142, 0.452);
-    border: 1px solid rgba(218, 236, 150, 0.37);
-    padding: 10px;
-    text-align: justify;
-    border-radius: 32px;
-}
 body {
-    font-size: 16px;
-    padding: 10px;
+  background-color: rgba(255, 250, 220, 0.897);
+}
+
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(74, 179, 138);
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(3, 53, 1);
+  margin: 30px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #0d6137;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 100px;
+}
+
+h3 {
+  font-size: 38px;
+  color: #149bbd;
+  text-align: center;
+}
+
+.btn-debates {
+  background-color: rgb(235, 152, 20);
+}
+
+.btn-debates:hover {
+  background-color: #9dee07;
+}
+
+.btn-lecturas {
+  background-color: rgb(252, 197, 109);
+}
+
+.btn-lecturas:hover {
+  background-color: #ec6314;
+}
+
+.lectura-debate {
+  font-size: 24px;
+  color: #023859;
+  text-align: center;
+}
+
+.img-debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 251px;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+.formulario-debate {
+  font-size: 25px;
+  color: #94700c;
+  text-align: center;
 }
 
 .bienvenda {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    align-items: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
 }
-footer {
-    margin-top: 80px;
-    margin-bottom: 05px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    gap: 24px;
+
+.novedades {
+  font-size: 50px;
+  color: rgb(91, 146, 126);
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  text-decoration: underline wavy;
 }
-.formulario-debate {
-    font-size: 25px;
-    color: #94700c;
-    text-align: center;
+
+.novedades-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: space-between;
 }
-.lectura-debate{
-    font-size: 24px;
-    color: #023859;
-    text-align: center;
+
+.proximo-grid-1, .proximo-grid-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(253, 214, 142, 0.452);
+  border: 1px solid rgba(218, 236, 150, 0.37);
+  padding: 10px;
+  text-align: justify;
+  border-radius: 32px;
 }
-.img-debate {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 250px;
+
+.recomendacion-lecturas {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
 }
-.btn-debates {
-    background-color: rgb(235, 152, 20);
+
+.recomendacion-t1 {
+  font-size: 21px;
+  color: rgb(54, 54, 51);
+  text-align: center;
 }
-.btn-debates:hover {
-    background-color: #9dee07;
+
+.recomendacion-img {
+  width: 300px;
+  height: 370px;
+}
+
+.bg-nav-propio {
+  background-color: rgb(255, 240, 216);
+}
+
+.nav-link {
+  background-color: rgb(218, 76, 19);
+}
+.nav-link:hover {
+  background-color: rgb(255, 240, 216);
+}
+
+.subtitulo-oferta {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(71, 83, 47);
 }
 
 @media (max-width: 450px) {
-    body {
-        margin: 0 16px;
-    }
-    .navbar {
-        grid-template-rows: 50px 20px;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas:
-           "logo navbar ul navbar ul navbar ul navbar ul navbar ul"
-    }
-    .bienvenda {
-        flex-direction: column;
-        gap: 32px;
-    }
-    .proximo-grid-1 {
-        flex-direction: column;
-        gap: 32px;
-        
-    }
-    .proximo-grid-2{
-        flex-direction: column;
-        gap: 32px;
-    }
-    .recomendacion-lecturas {
-        flex-direction: column;
-        gap: 32px;
-    }
-    footer {
-        flex-direction: row-reverse;
-    }
-    
+  body {
+    margin: 0 16px;
+  }
+  .navbar {
+    grid-template-rows: 50px 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "logo navbar ul navbar ul navbar ul navbar ul navbar ul";
+  }
+  .bienvenda {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .proximo-grid-1 {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .proximo-grid-2 {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .recomendacion-lecturas {
+    flex-direction: column;
+    gap: 32px;
+  }
+  footer {
+    flex-direction: row-reverse;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

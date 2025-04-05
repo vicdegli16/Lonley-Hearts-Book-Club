@@ -1,0 +1,11 @@
+.bg-nav-propio {
+    background-color: rgb(255, 240, 216);
+}
+.nav-link  {
+    background-color: rgb(218, 76, 19);
+    &:hover {
+        background-color: rgb(255, 240, 216);
+      }
+   
+
+}

@@ -1,0 +1,25 @@
+.autores-conteiner {
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.autores {
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+    
+    text-decoration:underline;
+    
+
+    padding: 8px;
+    margin: 7px 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.autores-card {
+    padding: 16px;
+    width: 300px;
+}

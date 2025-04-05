@@ -1,0 +1,33 @@
+.bienvenda {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+}
+.novedades {
+    font-size: 50px;
+    color: rgb(91, 146, 126);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    text-decoration: underline wavy;
+}
+.novedades-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+.proximo-grid-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgba(253, 214, 142, 0.452);
+    border: 1px solid rgba(218, 236, 150, 0.37);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 32px;
+}
+.proximo-grid-2{
+    @extend .proximo-grid-1; 
+}

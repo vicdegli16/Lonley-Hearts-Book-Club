@@ -1,0 +1,62 @@
+//BASE
+@use 'partials/base/reset';
+@use 'partials/base/tipography';
+
+//COMPONENTS
+@use 'partials/components/autores';
+@use 'partials/components/body';
+@use 'partials/components/buttons';
+@use 'partials/components/debates';
+@use 'partials/components/footer';
+@use 'partials/components/formularios';
+@use 'partials/components/inicio';
+@use 'partials/components/lecturas';
+@use 'partials/components/navbar';
+@use 'partials/components/ofertas';
+
+//UTILITIES
+
+@use 'partials/utilities/maps';
+@use 'partials/utilities/mixins';
+@use 'partials/utilities/variables';
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    body {
+        margin: 0 16px;
+    }
+    .navbar {
+        grid-template-rows: 50px 20px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+           "logo navbar ul navbar ul navbar ul navbar ul navbar ul"
+    }
+    .bienvenda {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .proximo-grid-1 {
+        flex-direction: column;
+        gap: 32px;
+        
+    }
+    .proximo-grid-2{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .recomendacion-lecturas {
+        flex-direction: column;
+        gap: 32px;
+    }
+    footer {
+        flex-direction: row-reverse;
+    }
+    
+}
